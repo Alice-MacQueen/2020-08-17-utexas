@@ -428,7 +428,7 @@ during the workshop.
 {% if site.carpentry == "swc" %}
 {% include swc/setup.html %}
 {% elsif site.carpentry == "dc" %}
-{% include dc/setup.html %}
+{% include dc/setup-r.md %}
 {% elsif site.carpentry == "lc" %}
 {% include lc/setup.html %}
 {% elsif site.carpentry == "pilot" %}
